@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>hello world</title>
+	<script type="text/javascript">
+		document.addEventListner("deviceready",onDeviceReady,false);
+		function onDeviceReady()
+		{
+			alert("dev ready");
+		}
+		function clik() 
+		{
+    		alert("Hello World!");
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="txt" placeholder="Enter the text" /><br />
+	<input type="button" onClick="clik()" value="Click Me" />
+	
+</body>
+</html>
